@@ -5,9 +5,6 @@ using System.Text;
 
 namespace Trains.Graphing
 {
-
-
-
     /// <summary>
     /// A graph is composed of a list of nodes and a list of edges
     /// </summary>
@@ -32,10 +29,7 @@ namespace Trains.Graphing
         public IList<Node> Nodes;
         public IList<Edge> Edges;
         public string Title;
-
-
-
-
+        
         /// <summary>
         /// Get all exiting edges from startNode
         /// </summary>

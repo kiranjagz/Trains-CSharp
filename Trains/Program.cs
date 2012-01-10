@@ -12,6 +12,7 @@ namespace Trains
     {
         static void Main(string[] args)
         {
+            // Create your own testData class to try other combinations!
             SampleData data = null;
             try
             {
@@ -24,7 +25,7 @@ namespace Trains
                 data = new SampleData();
             }
            
-            // Create your own testData class to try other combinations!
+            
             
             var builder = new GraphBuilder();
             Graph graph = builder.BuildFromString(data.GraphData)
